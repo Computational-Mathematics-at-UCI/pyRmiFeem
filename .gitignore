@@ -5,4 +5,8 @@ env
 env/
 *__pycache__*
 .idea
-*.dcm*
+*.dcm
+pyrmifeem.egg-info
+pyrmifeem.egg-info/
+tmpX
+tmpX/

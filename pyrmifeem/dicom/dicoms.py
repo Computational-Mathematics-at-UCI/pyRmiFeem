@@ -67,6 +67,10 @@ class DicomSeriesProcessor:
             raise IndexError(
                 f"Índice {index} fuera de rango [0-{len(self.slices)-1}]")
         return self.slices[index].pixel_array
+    
+    @property
+    def get_slices(self):
+        return self.slices
 
     @property
     def metadata_summary(self) -> dict:

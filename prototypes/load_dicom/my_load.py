@@ -11,6 +11,10 @@ dss.quick_preview()
 
 k1=input("Continuar tecla + enter")
 
+dss.quick_preview(len(dss.get_slices)-1)
+
+k1=input("Continuar tecla + enter")
+
 volume_3d = dss.get_volume()
 
 spacing = dss.metadata_summary['spacing']
@@ -21,5 +25,5 @@ grid.point_data["values"] = volume_3d.flatten(order="F")
 
 # Visualización interactiva
 plotter = pv.Plotter()
-plotter.add_volume(grid, cmap="bone", opacity="sigmoid")
+plotter.add_volume(grid)#, cmap="gray")#, opacity="sigmoid")
 plotter.show()
