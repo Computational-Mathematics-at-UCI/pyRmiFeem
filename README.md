@@ -27,7 +27,7 @@
 1. Clona este repositorio  
 
    ```bash
-   git clone https://github.com/tu-usuario/pyrmifeem.git
+   git clone https://github.com/Computational-Mathematics-at-UCI/pyRmiFeem.git
    cd pyrmifeem
    ```
 
