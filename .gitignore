@@ -1,14 +1,59 @@
-.vscode/
-venv
-venv/
-env
-env/
-*__pycache__*
-.idea
 *.dcm
-pyrmifeem.egg-info
-pyrmifeem.egg-info/
 tmpX
 tmpX/
 build
 build/
+
+### Entornos Virtuales ###
+venv/
+env/
+.venv/
+pythonenv*
+
+### Archivos generados por Python ###
+__pycache__/
+*__pycache__*
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+### Entorno y configuración local ###
+.env
+.env.local
+.env.development
+.secrets
+
+### Archivos de distribución/paquetes ###
+dist/
+build/
+*.egg-info/
+*.egg
+pip-log.txt
+
+### Herramientas de testing/coverage ###
+.coverage
+htmlcov/
+.coverage.*
+.pytest_cache/
+.mypy_cache/
+
+### Editor/IDE ###
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-*
+
+### Sistema operativo ###
+.DS_Store
+Thumbs.db
+
+### Logs y archivos temporales ###
+*.log
+*.tmp
+*.bak
+
+### Documentación ###
+docs/_build/
+
