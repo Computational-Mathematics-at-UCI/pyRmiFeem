@@ -10,3 +10,5 @@ pyrmifeem.egg-info
 pyrmifeem.egg-info/
 tmpX
 tmpX/
+build
+build/
