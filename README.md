@@ -49,7 +49,7 @@ pyrmifeem/
 ├── LICENSE                # MIT License
 ├── prototypes             # Prototipos de prueba y conceptos
 │       
-├── pyrmifeem              # Código Fuente instalable | |||  │                          # del toolkit               
+├── pyrmifeem              # Código Fuente instalable del toolkit               
 │   
 ├── README.md              # Descripción
 └── setup.py               # Instalación del múdulo mediante pip
