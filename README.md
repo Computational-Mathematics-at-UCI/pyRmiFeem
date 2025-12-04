@@ -26,25 +26,19 @@ Python toolkit para construir y visualizar modelos por Elementos Finitos (FEM) d
 ## Instalación
 
 1. Clona este repositorio  
+
    ```bash
    git clone https://github.com/tu-usuario/pyrmifeem.git
    cd pyrmifeem
    ```
 
-2. Crea un entorno virtual e instala dependencias  
-   ```bash
-   python3 -m venv venv
-   source venv/bin/activate        # Linux/macOS
-   .\venv\Scripts\activate         # Windows PowerShell
-   pip install --upgrade pip
-   pip install -r requirements.txt
-   ```
+2. Crea un entorno virtual e instala dependencias
+**Instalación con Anaconda**
 
-3. Comprueba que FEBio está disponible  
-   ```bash
-   echo $FEBIO_HOME                # Linux/macOS
-   echo %FEBIO_HOME%               # Windows
-   ```
+```bash
+conda create  -f environment.yml --prefix ./SoftFem
+conda activate ./SoftFem
+```
 
 ---
 
@@ -108,8 +102,3 @@ show_mesh("results/hueso.vtk", scalar_field="stress")
 ## Licencia
 
 Este proyecto se distribuye bajo la licencia MIT. Consulta el fichero [LICENSE](LICENSE) para más detalles.
-
-
-
-
-
